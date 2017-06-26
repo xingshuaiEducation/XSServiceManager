@@ -6,7 +6,8 @@ s.homepage     = "https://github.com/xingshuaiEducation/XSServiceManager"
 s.license      = 'MIT'
 s.author       = {'suxx' => '13751882497.com'}
 s.source       = { :git => 'https://github.com/xingshuaiEducation/XSServiceManager.git'}
-s.platform     = :ios
+s.platform     = :ios, '8.0'
+s.requires_arc = true                   #是否使用ARC，如果指定具体文件，则具体的问题使用ARC
 s.source_files = 'XSServiceManager/**/*.{h,m}'
 #s.resources    = 'XSBreakthroughtModule/Resource/*.{png}'
 #s.frameworks = 'AFNetworking'
