@@ -10,5 +10,5 @@ s.platform     = :ios
 s.source_files = 'XSServiceManager/**/*.{h,m}'
 #s.resources    = 'XSBreakthroughtModule/Resource/*.{png}'
 #s.frameworks = "UIKit", "Foundation"
-s.dependency = 'AFNetworking'
+#s.dependency = 'AFNetworking'
 end
