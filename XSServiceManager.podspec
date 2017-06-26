@@ -9,5 +9,6 @@ s.source       = { :git => 'https://github.com/xingshuaiEducation/XSServiceManag
 s.platform     = :ios
 s.source_files = 'XSServiceManager/**/*.{h,m}'
 #s.resources    = 'XSBreakthroughtModule/Resource/*.{png}'
-#s.frameworks = '*.helloFramework/helloFramework'
+#s.frameworks = "UIKit", "Foundation"
+s.dependency = "AFNetworking"
 end
