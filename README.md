@@ -4,11 +4,10 @@
 依赖的第三方SDK:    
 AFNetworking   
 
-使用方法：
-1.cocoapod的配置文件 
-  pod 'XSServiceManager', :git => 'https://github.com/xingshuaiEducation/XSServiceManager' 
-  
-2.在需要使用的地方引入头文件：
+使用方法：    
+1.cocoapod的配置文件：    
+  pod 'XSServiceManager', :git => 'https://github.com/xingshuaiEducation/XSServiceManager'     
+2.在需要使用的地方引入头文件：    
   #import <XSServiceManager.h>  
 
 3.使用代码： 
