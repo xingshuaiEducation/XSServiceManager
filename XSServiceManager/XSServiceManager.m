@@ -10,6 +10,7 @@
 #import "Service.h"
 #import <AFNetworking.h>
 #import "XSServiceModel.h"
+#import "sys/sysctl.h"
 
 @implementation XSServiceManager
 
