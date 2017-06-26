@@ -1,8 +1,11 @@
 # XSServiceManager
 网络请求管理模块
 
-使用方法：
-1.cocoapod的配置文件：
+依赖的第三方SDK:
+ AFNetworking
+
+使用方法：\n
+1.cocoapod的配置文件：\n
   pod 'XSServiceManager', :git => 'https://github.com/xingshuaiEducation/XSServiceManager'
   
 2.在需要使用的地方引入头文件：
