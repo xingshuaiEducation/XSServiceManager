@@ -1,8 +1,8 @@
 # XSServiceManager
 网络请求管理模块
 
-依赖的第三方SDK:   
- AFNetworking   
+依赖的第三方SDK:    
+AFNetworking   
 
 使用方法：
 1.cocoapod的配置文件 
