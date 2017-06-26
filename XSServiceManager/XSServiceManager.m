@@ -209,6 +209,7 @@
 }
 +(void)post:(NSString*)path params:(NSDictionary<NSString*,id>*)params completion:(void(^)(Response* response))completion{
     __weak typeof(self) weakSelf = self;
+    __weak __typeof__(self) weakSelf = self;
     
     [Service requestMethod:@"POST" path:path params:params responseSerializer:[self setResponseSerializer] requestSerializer:[self setRequestSerializer] completion:^(NSDictionary *responseDic) {
         [weakSelf parseResponsejson:responseDic completion:^(Response *response) {
@@ -219,6 +220,7 @@
 
 +(void)get:(NSString*)path params:(NSDictionary<NSString*,id>*)params completion:(void(^)(Response* response))completion{
     __weak typeof(self) weakSelf = self;
+    __weak __typeof__(self) weakSelf = self;
     
     [Service requestMethod:@"GET" path:path params:params responseSerializer:[self setResponseSerializer] requestSerializer:[self setRequestSerializer] completion:^(NSDictionary *responseDic) {
         [weakSelf parseResponsejson:responseDic completion:^(Response *response) {
