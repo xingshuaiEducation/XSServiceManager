@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XSServiceModel.h"
 
-@class Response;
-@class Request;
 
 @interface XSServiceManager : NSObject
 
