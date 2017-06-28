@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "XSServiceModel.h"
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 @class Request;
 
