@@ -11,5 +11,5 @@ s.requires_arc = true                   #是否使用ARC，如果指定具体文
 s.source_files = 'XSServiceManager/**/*.{h,m}'
 #s.resources    = 'XSBreakthroughtModule/Resource/*.{png}'
 #s.frameworks = 'UIKIT' #依赖的系统库
-s.dependencys = 'AFNetworking'  #依赖的第三方库
+s.dependency 'AFNetworking'  #依赖的第三方库
 end
