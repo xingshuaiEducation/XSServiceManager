@@ -46,7 +46,7 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
     //是否支持HTTPS
-    manager.securityPolicy.allowInvalidCertificates = YES;
+    //manager.securityPolicy.allowInvalidCertificates = YES;
 
     //设置请求头
     if (requestSerializer) {
